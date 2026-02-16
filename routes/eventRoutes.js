@@ -153,7 +153,7 @@ router.get("/my/registered", authMiddleware, async(request, response)=>{
 
 
 
-// TEMP: Seed sample events (use once, then you can delete it)
+
 
 // TEMP: Seed sample events (use once)
 router.post("/seed", async (req, res) => {
